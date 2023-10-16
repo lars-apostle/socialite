@@ -1,6 +1,41 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/socialite/compare/v5.6.0...5.x)
+## [Unreleased](https://github.com/laravel/socialite/compare/v5.9.1...5.x)
+
+## [v5.9.1](https://github.com/laravel/socialite/compare/v5.9.0...v5.9.1) - 2023-09-07
+
+- (feat) Extract some logic to a `userInstance` method. by [@lucasmichot](https://github.com/lucasmichot) in https://github.com/laravel/socialite/pull/663
+
+## [v5.9.0](https://github.com/laravel/socialite/compare/v5.8.1...v5.9.0) - 2023-09-05
+
+- [5.x] Include GitHub `node_id` field by [@lucasmichot](https://github.com/lucasmichot) in https://github.com/laravel/socialite/pull/657
+- [5.x] Adds `LinkedInOpenId` provider by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/socialite/pull/662
+
+## [v5.8.1](https://github.com/laravel/socialite/compare/v5.8.0...v5.8.1) - 2023-08-21
+
+- Fix phpstan issues in Twitter and Slack drivers by [@alecpl](https://github.com/alecpl) in https://github.com/laravel/socialite/pull/653
+
+## [v5.8.0](https://github.com/laravel/socialite/compare/v5.7.0...v5.8.0) - 2023-07-14
+
+- Update Slack provider to use v2 API and allow Bot tokens by [@jbrooksuk](https://github.com/jbrooksuk) in https://github.com/laravel/socialite/pull/645
+
+## [v5.7.0](https://github.com/laravel/socialite/compare/v5.6.3...v5.7.0) - 2023-07-08
+
+- Add support for Slack driver by [@jbrooksuk](https://github.com/jbrooksuk) in https://github.com/laravel/socialite/pull/644
+
+## [v5.6.3](https://github.com/laravel/socialite/compare/v5.6.2...v5.6.3) - 2023-06-06
+
+- Add buildProvider method on DockBlock for IDE  support by @emrancu in https://github.com/laravel/socialite/pull/643
+
+## [v5.6.2](https://github.com/laravel/socialite/compare/v5.6.1...v5.6.2) - 2023-05-29
+
+- Fix unable to use updated config object when using Laravel Octane by @aprokopenko in https://github.com/laravel/socialite/pull/639
+
+## [v5.6.1](https://github.com/laravel/socialite/compare/v5.6.0...v5.6.1) - 2023-01-20
+
+### Fixed
+
+- Add app property by @driesvints in https://github.com/laravel/socialite/pull/621
 
 ## [v5.6.0](https://github.com/laravel/socialite/compare/v5.5.8...v5.6.0) - 2023-01-13
 
